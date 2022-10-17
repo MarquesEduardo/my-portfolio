@@ -20,6 +20,7 @@
     color: #f9f9f9;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #646464;
+    transition: all .1s ease-in-out;
 }
 
 .menu__link.button:hover {
