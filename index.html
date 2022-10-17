@@ -12,6 +12,7 @@
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/body.css" rel="stylesheet">
     <link href="./assets/css/header.css" rel="stylesheet">
+    <link href="./assets/css/frontpage.css" rel="stylesheet">
     <link href="./assets/css/menu/menu.css" rel="stylesheet">
     <link href="./assets/css/menu/menu-item.css" rel="stylesheet">
     <link href="./assets/css/menu/menu-list.css" rel="stylesheet">
@@ -20,28 +21,30 @@
     <link href="./assets/css/hero/hero-text.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-title.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-link.css" rel="stylesheet">
+    <link href="./assets/css/hero/hero-title-name.css" rel="stylesheet">
+    <link href="./assets/css/hero/hero-title-description.css" rel="stylesheet">
     <title>EM</title>
 </head>
 
 <body>
-    <header class="header">
-        <a href="https://www.linkedin.com/in/eduardopereiramarques/" target="_blank"><img class="header__logo" src="./assets/img/MARQUES.png" alt="Marques"></a>
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__item"><a class="menu__link" href="#">About Me</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">My Projects</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Recommendations</a></li>
-                <li class="menu__item"><a class="menu__link button" href="#">Contact me!</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="frontpage">
+        <header class="header">
+            <a href="https://www.linkedin.com/in/eduardopereiramarques/" target="_blank"><img class="header__logo" src="./assets/img/MARQUES.png" alt="Marques" title="Get in touch!"></a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#">About Me</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">My Projects</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Recommendations</a></li>
+                    <li class="menu__item"><a class="menu__link button" href="#">Contact me!</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section class="hero">
-        <h1 class="hero__title">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h1>
-        <p class="hero__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-        <a class="hero__link button" href="#">More about me</a>
-    </section>
+        <section class="hero">
+            <p class="hero__title">Hi, my name is</p><span class="hero__title--name">Eduardo Marques</span><br><span class="hero__title--description">and I am a web developer.</span>
+            <p class="hero__text">I am specialized in Front End solutions for the web, currently using HTML, CSS and JS as main work tools, but learning new technologies everyday!</p>
+            <a class="hero__link button" href="#">More about me</a>
+        </section>
+    </div>
 </body>
 </html>
-<!--Hi, my name is Eduardo Marques and I am a web developer.
-I am specialized in Front End solutions for the web, currently using HTML, CSS and JS as main work tools, but learning new technologies everyday!-->

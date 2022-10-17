@@ -1,0 +1,6 @@
+.frontpage {
+    background-image: url('/assets/img/bg-hero.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+}

@@ -1,3 +1,7 @@
 .hero__title {
-    
+    color: #4D9ED1;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30%;
+    padding-right: 20%;
 }

@@ -1,8 +1,4 @@
 body {
-    background-image: url('/assets/img/bg-hero.jpg') ;
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-size: 1920px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
