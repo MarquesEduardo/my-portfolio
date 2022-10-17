@@ -1,20 +1,16 @@
 .hero__link.button {
     background-color: #146191;
-    padding: 1rem 2rem;
-    width: 150px;
+    padding: 1rem 3rem; /*apesar de modificar o tamanho do botão, ele permanece esticado*/
     color: #f9f9f9;
     border-radius: 0.75rem;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px #252525;
     text-decoration: none;
     transition: all .1s ease-in-out;
-    text-align: center;
-    margin-left: 50%;
-    margin-top: 30px;
 }
 
 .hero__link.button:hover {
     background-color: #0f4d74;
-    padding: 1.25rem 2.25rem;
+    padding: 1rem 3rem;
     color: #f9f9f9;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #252525;
@@ -22,7 +18,7 @@
 
 .hero__link.button:active {
     background-color: #01273f;
-    padding: 1.25rem 2.25rem;
+    padding: 1rem 3rem;
     color: #f9f9f9;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #0A4378;

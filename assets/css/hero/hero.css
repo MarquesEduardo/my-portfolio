@@ -1,8 +1,8 @@
 .hero {
-    height: calc(89.3vh - 24px);
+    width: 100%;
+    height: calc(100vh - 24px); /*colocando altura da minha seção do tamanho da tela, descontando o tamanho do menu */
     display: flex; 
     justify-content: center; 
     flex-direction: column;
-    box-sizing: content-box;
-
+    margin: 30px; /*ao adicionar qualquer modificação no padding ou margin, ele ultrapassa o tamanho da tela, mesmo com o width em 100%*/
 }
