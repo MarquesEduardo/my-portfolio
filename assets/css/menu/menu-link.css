@@ -1,0 +1,39 @@
+.menu__link {
+    margin-right: 4.25rem;
+    text-decoration: none;
+    color: #0A4378;
+}
+
+.menu__link:hover {
+    color: #6f9cc5;
+    transition: all .1s ease-in-out;
+}
+
+.menu__link:active {
+    color: #326391;
+    transition: all .1s ease-in-out;
+}
+
+.menu__link.button {
+    background-color: #146191;
+    padding: 1rem 3rem;
+    color: #f9f9f9;
+    border-radius: 0.75rem;
+    box-shadow: 2px 2px 4px #646464;
+}
+
+.menu__link.button:hover {
+    background-color: #0f4d74;
+    padding: 1rem 3rem;
+    color: #f9f9f9;
+    border-radius: 0.75rem;
+    box-shadow: 2px 2px 4px #646464;
+}
+
+.menu__link.button:active {
+    background-color: #01273f;
+    padding: 1rem 3rem;
+    color: #f9f9f9;
+    border-radius: 0.75rem;
+    box-shadow: 2px 2px 4px #ffffff;
+}
