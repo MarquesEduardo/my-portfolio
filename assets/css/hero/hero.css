@@ -7,11 +7,10 @@
     justify-content: center;  
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 768px) {
     .hero {
         padding-left: 10%;
-
-        position: relative;
+        background: url('/assets/img/bg-hero-mobile.jpg') no-repeat center / cover;
     }
   }
 
