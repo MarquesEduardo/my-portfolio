@@ -5,3 +5,11 @@
     padding-left: 30%;
     padding-right: 20%;
 }
+
+@media screen and (max-width: 768px) {
+    .hero__title {
+        padding-left: 10%;
+        margin-top: 200px;
+        position: relative;
+    }
+  }

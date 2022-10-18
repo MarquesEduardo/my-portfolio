@@ -4,3 +4,12 @@
     padding-left: 30%;
     padding-right: 20%;
 }
+
+@media screen and (max-width: 768px) {
+    .hero__title--name {
+        padding-left: 10%;
+        margin-top: 0px;
+        position: relative;
+        font-size: 32px;
+    }
+}

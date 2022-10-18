@@ -1,7 +1,7 @@
 .menu__link {
+    color: #0A4378;
     margin-right: 3.25rem;
     text-decoration: none;
-    color: #0A4378;
 }
 
 .menu__link:hover {
@@ -14,27 +14,41 @@
     transition: all .1s ease-in-out;
 }
 
-.menu__link.button {
+@media screen and (max-width: 1080px) {
+    .menu__link {
+        display: none;
+    }
+}
+
+.menu__button {
     background-color: #146191;
-    padding: 1rem 3rem;
-    color: #f9f9f9;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #646464;
+    color: #f9f9f9;
+    padding: 1rem 3rem;
     transition: all .1s ease-in-out;
+    text-decoration: none;
 }
 
-.menu__link.button:hover {
+.menu__button:hover {
     background-color: #0f4d74;
-    padding: 1rem 3rem;
-    color: #f9f9f9;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #646464;
+    color: #f9f9f9;
+    padding: 1rem 3rem;
 }
 
-.menu__link.button:active {
+.menu__button:active {
     background-color: #01273f;
-    padding: 1rem 3rem;
-    color: #f9f9f9;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #ffffff;
+    color: #f9f9f9;
+    padding: 1rem 3rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .menu__button {
+        padding: 0.75rem 1.75rem;
+        font-size: 15px;
+    }
 }

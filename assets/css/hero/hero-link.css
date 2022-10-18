@@ -1,29 +1,36 @@
 .hero__link.button {
     background-color: #146191;
-    padding: 1rem 2rem;
-    width: 150px;
-    color: #f9f9f9;
     border-radius: 0.75rem;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-    text-decoration: none;
-    transition: all .1s ease-in-out;
-    text-align: center;
+    color: #f9f9f9;
     margin-left: 50%;
     margin-top: 30px;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+    width: 150px;
 }
 
 .hero__link.button:hover {
     background-color: #0f4d74;
-    padding: 1.25rem 2.25rem;
-    color: #f9f9f9;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #252525;
+    color: #f9f9f9;
+    padding: 1.25rem 2.25rem;
 }
 
 .hero__link.button:active {
     background-color: #01273f;
-    padding: 1.25rem 2.25rem;
-    color: #f9f9f9;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #0A4378;
+    color: #f9f9f9;
+    padding: 1.25rem 2.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero__link.button{
+        margin-left: 25%;
+        font-size: 14px;
+    }
 }

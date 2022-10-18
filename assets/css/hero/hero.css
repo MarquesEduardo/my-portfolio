@@ -1,8 +1,19 @@
 .hero {
-    height: calc(89.3vh - 24px);
-    display: flex; 
-    justify-content: center; 
-    flex-direction: column;
+    background: url('/assets/img/bg-hero.jpg') no-repeat center / cover;
     box-sizing: content-box;
-
+    display: flex; 
+    flex-direction: column;
+    height: calc(89.3vh - 24px);
+    justify-content: center;  
 }
+
+@media screen and (max-width: 1050px) {
+    .hero {
+        padding-left: 10%;
+
+        position: relative;
+    }
+  }
+
+
+
