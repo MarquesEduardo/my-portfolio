@@ -51,4 +51,20 @@
         padding: 0.75rem 1.75rem;
         font-size: 15px;
     }
+
+    .menu__button:active {
+        background-color: #01273f;
+        border-radius: 0.75rem;
+        box-shadow: 2px 2px 4px #ffffff;
+        color: #f9f9f9;
+        padding: 0.75rem 1.75rem;
+    }
+
+    .menu__button:hover {
+        background-color: #0f4d74;
+        border-radius: 0.75rem;
+        box-shadow: 2px 2px 4px #646464;
+        color: #f9f9f9;
+        padding: 0.75rem 1.75rem;
+    }
 }

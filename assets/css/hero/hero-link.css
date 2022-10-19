@@ -33,10 +33,42 @@
         font-size: 14px;
         margin-left: 16%;
     }
+    
+    .hero__link.button:hover {
+        background-color: #0f4d74;
+        border-radius: 0.75rem;
+        box-shadow: 2px 2px 4px #252525;
+        color: #f9f9f9;
+        padding: 1rem 2rem;
+    }
+    
+    .hero__link.button:active {
+        background-color: #01273f;
+        border-radius: 0.75rem;
+        box-shadow: 2px 2px 4px #0A4378;
+        color: #f9f9f9;
+        padding: 1rem 2rem;
+    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 1150px) {
     .hero__link.button {
         margin-left: 40%;
+    }
+    .hero__link.button:hover {
+        background-color: #0f4d74;
+        border-radius: 0.75rem;
+        box-shadow: 2px 2px 4px #252525;
+        color: #f9f9f9;
+        padding: 1rem 2rem;
+    }
+    
+    .hero__link.button:active {
+        background-color: #01273f;
+        border-radius: 0.75rem;
+        box-shadow: 2px 2px 4px #0A4378;
+        color: #f9f9f9;
+        padding: 1rem 2rem;
     }
   }
