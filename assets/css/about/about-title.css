@@ -2,3 +2,9 @@
     color: #0A86D3;
     text-shadow: 3px 3px 5px #868686;
 }
+
+@media screen and (max-width: 768px) {
+    .about__title {
+        font-size: 20px;
+    }
+}

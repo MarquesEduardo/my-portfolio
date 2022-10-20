@@ -1,4 +1,10 @@
 .about__img {
     box-shadow: 2px 2px 4px #ffffff;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 } 
+
+@media screen and (max-width: 768px) {
+    .about__img {
+        width: auto
+    }
+}

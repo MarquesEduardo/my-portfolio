@@ -1,4 +1,4 @@
-.hero__link.button {
+.hero__button {
     background-color: #146191;
     border-radius: 0.75rem;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
@@ -12,7 +12,7 @@
     width: 150px;
 }
 
-.hero__link.button:hover {
+.hero__button:hover {
     background-color: #0f4d74;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #252525;
@@ -20,7 +20,7 @@
     padding: 1.25rem 2.25rem;
 }
 
-.hero__link.button:active {
+.hero__button:active {
     background-color: #01273f;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #0A4378;
@@ -29,12 +29,12 @@
 }
 
 @media screen and (max-width: 768px) {
-    .hero__link.button{
+    .hero__button{
         font-size: 14px;
-        margin-left: 16%;
+        margin: 10% auto;
     }
     
-    .hero__link.button:hover {
+    .hero__button:hover {
         background-color: #0f4d74;
         border-radius: 0.75rem;
         box-shadow: 2px 2px 4px #252525;
@@ -42,7 +42,7 @@
         padding: 1rem 2rem;
     }
     
-    .hero__link.button:active {
+    .hero__button:active {
         background-color: #01273f;
         border-radius: 0.75rem;
         box-shadow: 2px 2px 4px #0A4378;
@@ -53,10 +53,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1150px) {
-    .hero__link.button {
+    .hero__button {
         margin-left: 40%;
     }
-    .hero__link.button:hover {
+    .hero__button {
         background-color: #0f4d74;
         border-radius: 0.75rem;
         box-shadow: 2px 2px 4px #252525;
@@ -64,7 +64,7 @@
         padding: 1rem 2rem;
     }
     
-    .hero__link.button:active {
+    .hero__button:active {
         background-color: #01273f;
         border-radius: 0.75rem;
         box-shadow: 2px 2px 4px #0A4378;

@@ -4,3 +4,15 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+    .about {
+        display: flex;
+        justify-content: space-between; 
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 100px 0;
+    }
+}

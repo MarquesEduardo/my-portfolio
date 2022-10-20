@@ -2,3 +2,9 @@
     width: 450px;
     color: #053460;
 }
+
+@media screen and (max-width: 768px) {
+    .about__description {
+        width: 100%;
+    }
+}

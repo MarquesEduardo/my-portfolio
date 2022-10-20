@@ -10,8 +10,9 @@
 
 @media screen and (max-width: 768px) {
     .hero {
-        padding-left: 10%;
         background: url('/assets/img/bg-hero-mobile.jpg') no-repeat center / cover;
+        height: 100vh;
+        text-align: center;
     }
   }
 

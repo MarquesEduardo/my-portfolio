@@ -7,7 +7,7 @@
     text-align: center;
     text-decoration: none;
     transition: all .1s ease-in-out;
-    margin-left: 35px;
+    margin-bottom: 30px;
 }
 
 .about__link:hover {
@@ -24,4 +24,10 @@
     box-shadow: 2px 2px 4px #0A4378;
     color: #f9f9f9;
     padding: 1.25rem 1.15rem;
+}
+
+@media screen and (max-width: 768px){
+    .about__link {
+        font-size: 14px;
+    }
 }
