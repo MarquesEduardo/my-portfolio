@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px) {
     .hero {
-        background: url('/assets/img/bg-hero-mobile.jpg') no-repeat center / cover;
+        background: url('/assets/img/bg-hero-mobile.png') no-repeat center / cover;
         height: 100vh;
         text-align: center;
     }
