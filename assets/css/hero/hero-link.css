@@ -55,6 +55,7 @@
 @media screen and (min-width: 768px) and (max-width: 1150px) {
     .hero__button {
         margin-left: 40%;
+        margin-bottom: 80px;
     }
     .hero__button {
         background-color: #0f4d74;
