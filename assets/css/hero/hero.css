@@ -1,5 +1,5 @@
 .hero {
-    background: url("/img/hero.png") no-repeat center / cover;
+    background: url("../../../img/hero.png") no-repeat center / cover;
     box-sizing: content-box;
     display: flex; 
     flex-direction: column;
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px) {
     .hero {
-        background: url("/img/mobile.png") no-repeat center / cover;
+        background: url("../../../img/mobile.png") no-repeat center / cover;
         height: 100vh;
         text-align: center;
     }
