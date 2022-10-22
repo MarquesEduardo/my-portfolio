@@ -6,6 +6,7 @@
     height: calc(89.3vh - 24px);
     justify-content: center;  
     box-shadow: 0px 8px 8px #8d8c8c;
+    overflow: scroll;
 }
 
 @media screen and (max-width: 768px) {
