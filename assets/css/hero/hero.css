@@ -1,17 +1,16 @@
 .hero {
-    background: url("../../../img/hero.png") no-repeat center / cover;
+    background: url("../../../img/hero.svg") no-repeat center / cover;
     box-sizing: content-box;
     display: flex; 
     flex-direction: column;
     height: calc(89.3vh - 24px);
     justify-content: center;  
     box-shadow: 0px 8px 8px #8d8c8c;
-    overflow: scroll;
 }
 
 @media screen and (max-width: 768px) {
     .hero {
-        background: url("../../../img/mobile.png") no-repeat center / cover;
+        background: url("../../../img/heromobile.svg") no-repeat center / cover;
         height: 100vh;
         text-align: center;
     }
