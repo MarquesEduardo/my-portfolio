@@ -1,6 +1,13 @@
+:root {
+
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     list-style-image: url('../../img/arrow.png');
 }
 
+.downarrow {
+    width: 10%;
+}

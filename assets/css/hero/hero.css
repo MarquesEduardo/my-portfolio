@@ -11,10 +11,13 @@
 @media screen and (max-width: 768px) {
     .hero {
         background: url("../../../img/heromobile.svg") no-repeat center / cover;
-        height: 100vh;
         text-align: center;
     }
   }
 
-
+  @media screen and (max-height: 468px) {
+    .hero {
+        height: fit-content;
+    }
+  }
 
