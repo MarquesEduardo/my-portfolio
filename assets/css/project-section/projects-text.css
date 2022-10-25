@@ -1,5 +1,13 @@
 .projects__text {
     margin: 2rem;
     color: #4D9ED1;
-    text-align: left;
+    text-align: center;
+    width: 350px;
+}
+
+@media screen and (max-width: 585px) {
+    .projects__text {
+        margin: 1rem auto;
+        width: 100%;
+    }
 }

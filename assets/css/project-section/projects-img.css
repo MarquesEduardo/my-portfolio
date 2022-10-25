@@ -14,4 +14,7 @@
     .projects__img {
         width: 100%;
     }
+    .projects__img:hover {
+        width: 100%;
+    }
 }
