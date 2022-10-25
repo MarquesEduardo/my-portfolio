@@ -1,3 +1,20 @@
 .projects {
     background-color: #0A4378;
+    display: flex;
+    padding: 150px 0; 
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .projects {
+        display: flex;
+        justify-content: space-between; 
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 100px 0;
+    }
 }
