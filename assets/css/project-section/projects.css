@@ -1,7 +1,7 @@
 .projects {
     background-color: #0A4378;
     display: flex;
-    padding: 150px 0; 
+    padding: 0 0 5rem 0; 
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;

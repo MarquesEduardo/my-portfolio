@@ -1,6 +1,9 @@
 .projects__title {
     color: #f9f9f9;
     text-shadow: 2px 2px 3px #666666;
+    margin: 10rem 0 3rem 0;
+    padding-bottom: 1rem;
+    border-bottom: solid 0.1rem #0A86D3;
 }
 
 @media screen and (max-width: 768px) {
