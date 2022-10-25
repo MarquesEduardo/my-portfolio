@@ -3,5 +3,7 @@
     flex-direction: row-reverse;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 1.5rem;
+    align-items: flex-start;
 }
