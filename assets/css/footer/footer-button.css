@@ -1,15 +1,17 @@
 .footer__button {
-    color: #0A4378;
-    margin-right: 3.25rem;
+    background-color: #146191;
+    border-radius: 0.75rem;
+    box-shadow: 2px 2px 4px #222222;
+    color: #f9f9f9;
+    padding: 1rem 3rem;
+    transition: all .1s ease-in-out;
     text-decoration: none;
+    margin: 3rem 0 0 0;
 }
 
 .footer__button:hover {
-    color: #6f9cc5;
-    transition: all .1s ease-in-out;
+    background-color: #0f4d74;
 }
 
 .footer__button:active {
-    color: #326391;
-    transition: all .1s ease-in-out;
-}
+    background-color: #01273f;

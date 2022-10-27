@@ -34,16 +34,12 @@
     background-color: #0f4d74;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #646464;
-    color: #f9f9f9;
-    padding: 1rem 3rem;
 }
 
 .menu__button:active {
     background-color: #01273f;
     border-radius: 0.75rem;
     box-shadow: 2px 2px 4px #ffffff;
-    color: #f9f9f9;
-    padding: 1rem 3rem;
 }
 
 @media screen and (max-width: 1080px) {
