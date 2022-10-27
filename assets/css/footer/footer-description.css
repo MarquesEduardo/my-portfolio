@@ -4,3 +4,10 @@
     font-size: 16px;
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__text___description {
+        font-size: 16px;
+        padding: 0 2rem;
+    }
+  }
