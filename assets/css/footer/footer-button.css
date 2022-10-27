@@ -1,0 +1,15 @@
+.footer__button {
+    color: #0A4378;
+    margin-right: 3.25rem;
+    text-decoration: none;
+}
+
+.footer__button:hover {
+    color: #6f9cc5;
+    transition: all .1s ease-in-out;
+}
+
+.footer__button:active {
+    color: #326391;
+    transition: all .1s ease-in-out;
+}
