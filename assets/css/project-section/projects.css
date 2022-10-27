@@ -5,6 +5,7 @@
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
+    box-shadow: 0px 6px 6px #8d8c8c;
 }
 
 @media screen and (max-width: 768px) {

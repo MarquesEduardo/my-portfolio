@@ -1,0 +1,11 @@
+.qna__title {
+    color: #0A86D3;
+    text-shadow: 2px 2px 3px #b1b1b1;
+    border-bottom: solid 0.1rem #0A86D3;
+}
+
+@media screen and (max-width: 1130px) {
+    .qna__title  {
+    font-size: 20px;
+    }
+}

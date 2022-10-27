@@ -1,0 +1,11 @@
+.qna__img___container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 1130px) {
+    .qna__img___container  {
+    display: none;
+    }
+}
