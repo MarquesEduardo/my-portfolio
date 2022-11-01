@@ -2,6 +2,21 @@
     font-size: 32px;
     margin-bottom: 20px;
     padding-left: 40%;
+    animation: fadeInAnimationDesc ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimationDesc {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 @media screen and (max-width: 768px) {

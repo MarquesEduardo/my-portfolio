@@ -3,7 +3,21 @@
     font-size: 64px;
     padding-left: 30%;
     text-shadow: 3px 2px 1.5px #666666;
-
+    animation: fadeInAnimationName ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimationName {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 @media screen and (max-width: 768px) {
