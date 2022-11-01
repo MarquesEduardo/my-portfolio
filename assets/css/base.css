@@ -13,7 +13,7 @@ ul {
 }
 
 h2 {
-    color: #7ECEFF;
+    color: #f9f9f9;
     text-shadow: 2px 2px 3px #000000;
     border-bottom: solid 0.1rem #0A86D3;
     
@@ -22,6 +22,22 @@ h2 {
             font-size: 20px;
         }
     }
+}
+
+p.highlight, .highlight {
+    color: #7ECEFF;
+}
+
+h3.dark--highlight, .dark--highlight {
+    color: #4D9ED1;
+}
+
+.darker--highlight {
+    color: #0A86D3;
+}
+
+footer {
+    background-color: #0A4378;  
 }
 
 .button {

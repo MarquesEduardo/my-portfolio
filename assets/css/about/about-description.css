@@ -1,6 +1,5 @@
 .about__description{
-    width: 450px;
-    color: #0A86D3;
+    width: 30rem;
 }
 
 @media screen and (max-width: 768px) {
