@@ -1,4 +1,4 @@
-window.onscroll = {funtion scrollHeader ()};
+/*window.onscroll = {funtion scrollHeader ()};
 
 let header = document.header("myHeader");
 
@@ -12,4 +12,4 @@ function scrollHeader() {
   } else {
     header.classList.remove("sticky");
   }
-}
+}*/
