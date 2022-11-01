@@ -1,0 +1,25 @@
+.hero__logo___container {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 3rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+    justify-content: space-evenly;
+}
+
+.hero__logo {
+    transition: all .1s ease-in-out;
+    width: 2.5rem;
+}
+
+.hero__logo:hover {
+    width: 2.9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero__logo___container {
+        display: none;
+    }
+}
