@@ -19,14 +19,15 @@
     <link href="./assets/css/hero/hero.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-text.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-title.css" rel="stylesheet">
-    <link href="./assets/css/hero/hero-link.css" rel="stylesheet">
+    <link href="./assets/css/hero/hero-button.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-title-name.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-title-description.css" rel="stylesheet">
+    <link href="./assets/css/hero/hero-button-container.css" rel="stylesheet">
     <link href="./assets/css/about/about.css" rel="stylesheet">
     <link href="./assets/css/about/about-img.css" rel="stylesheet">
     <link href="./assets/css/about/about-title.css" rel="stylesheet">
     <link href="./assets/css/about/about-text.css" rel="stylesheet">
-    <link href="./assets/css/about/about-link.css" rel="stylesheet">
+    <link href="./assets/css/about/about-button.css" rel="stylesheet">
     <link href="./assets/css/about/about-item.css" rel="stylesheet">
     <link href="./assets/css/about/about-me.css" rel="stylesheet">
     <link href="./assets/css/about/about-description.css" rel="stylesheet">
@@ -40,6 +41,7 @@
     <link href="./assets/css/project-section/projects-description.css" rel="stylesheet">
     <link href="./assets/css/project-section/projects-2.css" rel="stylesheet">
     <link href="./assets/css/project-section/projects-3.css" rel="stylesheet">
+    <link href="./assets/css/project-section/projects-button-container.css" rel="stylesheet">
     <link href="./assets/css/qna/qna.css" rel="stylesheet">
     <link href="./assets/css/qna/qna-text.css" rel="stylesheet">
     <link href="./assets/css/qna/qna-answer.css" rel="stylesheet">
@@ -65,10 +67,10 @@
         <a href="https://www.linkedin.com/in/eduardopereiramarques/" target="_blank"><img class="header__logo" src="./img/MARQUES.png" alt="Marques" title="Get in touch!"></a>
         <nav class="menu">
             <ul class="menu__list">
-                <li class="menu__item"><a class="menu__link" href="#">About Me</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">My Projects</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Recommendations</a></li>
-                <li class="menu__item"><a class="menu__button" href="mailto:eduardomarques2321@gmail.com">Contact me!</a></li>
+                <li class="menu__item"><a class="menu__link" href="#about">About Me</a></li>
+                <li class="menu__item"><a class="menu__link" href="#projects">My Projects</a></li>
+                <li class="menu__item"><a class="menu__link" href="#qna">QnA</a></li>
+                <li class="menu__item"><a class="menu__button button" href="#footer">Contact me!</a></li>
             </ul>
         </nav>
     </header>
@@ -76,14 +78,17 @@
     <section class="hero">
         <p class="hero__title">Hi, my name is</p><span class="hero__title--name">Eduardo Marques</span><br><span class="hero__title--description">and I am a web developer.</span>
         <p class="hero__text">I am specialized in Front End solutions for the web, currently using HTML, CSS and JS as main work tools, but learning new technologies everyday!</p>
-        <a class="hero__button" href="#">More about me</a>
+        <div class="hero__button___container">
+            <a class="hero__button button" href="#about">More about me</a>
+            <img class="downarrow" src="img/down-arrow.png">
+        </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="about__me">
             <img class="about__img" src="./img/me.png" alt="Photo of Eduardo">
-            <a class="about__link" href="#">Check out my projects!</a>
-            <img class="downarrow" src="img/down-arrow.svg">
+            <a class="about__link button" href="#projects">Check out my projects!</a>
+            <img src="img/down-arrow.png">
         </div>
         <div class="about__text">
             <h2 class="about__title">1. About me</h2>
@@ -99,7 +104,7 @@
         </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2 class="projects__title">2. My projects</h2>
         <section class="projects__container">
             <div class="projects__visual">
@@ -124,10 +129,14 @@
                     </p>
                 </div>
             </div>
+            <div class="projects__button___container">
+                <a class="projects__button button" href="#qna">Questions you might have</a>
+                <img class="downarrow" src="img/down-arrow.png">
+            </div>
         </section>                                                         
     </section> 
 
-    <section class="qna">
+    <section class="qna" id="qna">
         <div class="qna__text">
             <div class="qna__header">
                 <h2 class="qna__title">3. QnA</h2>
@@ -164,13 +173,13 @@
     </section>
 
     <footer>
-        <section class="footer">
+        <section class="footer" id="footer">
             <div class="footer__text">
                 <p class="footer__text___title">What's next?</p>
                 <p class="footer__text___contact">Contact me!</p>
                 <p class="footer__text___description">My inbox is always open for everyone. Say hi, ask a question and let's start a conversation.</p>
             </div>
-            <a class="footer__button" href="mailto:eduardomarques2321@gmail.com">Say hello</a>
+            <a class="footer__button button" href="mailto:eduardomarques2321@gmail.com">Say hello</a>
         </section>
     </footer>
 

@@ -1,10 +1,11 @@
 .projects {
-    background-color: #0A4378;
     display: flex;
-    padding: 0 0 5rem 0; 
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
+    padding: 5rem 0 4rem 0;
+    width: 60rem;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -14,5 +15,12 @@
         align-items: center;
         flex-wrap: wrap;
         flex-direction: column;
+        width: auto;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 970px) {
+    .projects {
+        width: auto;
+    }
+  }

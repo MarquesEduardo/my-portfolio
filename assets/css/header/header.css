@@ -1,14 +1,9 @@
 .header {
-    background-color: #051e3f;
+    background-color: rgba(5, 30, 63, 0.9);
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    padding: 1.50rem 5rem;
-    position: sticky;
-}
-
-@media screen and (max-width: 768px) {
-    .header {
-        padding: 0.5rem 2rem;
-    }
+    justify-content: space-around;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
 }

@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    padding: 150px 0; 
+    padding: 7rem 0 4rem 0; 
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -8,6 +8,6 @@
 @media screen and (max-width: 768px) {
     .about {
         align-items: center;
-        padding: 100px 0;
+        padding: 2rem 0 4rem 0;
     }
 }
