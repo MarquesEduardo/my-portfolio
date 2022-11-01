@@ -1,5 +1,5 @@
 .menu__link {
-    color: #0A4378;
+    color: #7ECEFF;
     margin-right: 3.25rem;
     text-decoration: none;
 }
@@ -23,7 +23,7 @@
 .menu__button {
     background-color: #146191;
     border-radius: 0.75rem;
-    box-shadow: 2px 2px 4px #646464;
+    box-shadow: 2px 2px 4px #000000;
     color: #f9f9f9;
     padding: 1rem 3rem;
     transition: all .1s ease-in-out;
@@ -33,7 +33,7 @@
 .menu__button:hover {
     background-color: #0f4d74;
     border-radius: 0.75rem;
-    box-shadow: 2px 2px 4px #646464;
+    box-shadow: 2px 2px 4px #000000;
 }
 
 .menu__button:active {
