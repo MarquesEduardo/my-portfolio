@@ -4,3 +4,9 @@
     text-align: center;
     padding: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .copyright {
+        font-size: 10px;
+    }
+}
