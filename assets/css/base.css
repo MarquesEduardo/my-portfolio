@@ -24,8 +24,9 @@ h2 {
     }
 }
 
-p.highlight, .highlight {
+p.highlight, .highlight, a {
     color: #7ECEFF;
+    text-decoration: none;
 }
 
 h3.dark--highlight, .dark--highlight {
