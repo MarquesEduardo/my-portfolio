@@ -2,7 +2,7 @@
     color: #f9f9f9;
     font-size: 64px;
     padding-left: 30%;
-    text-shadow: 3px 2px 1.5px #969696;
+    text-shadow: 3px 2px 1.5px rgba(150, 150, 150, 0.5);
     animation: fadeInAnimationName ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
