@@ -1,6 +1,6 @@
 .hero__title--description {
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     padding-left: 40%;
     animation: fadeInAnimationDesc ease 3s;
     animation-iteration-count: 1;
