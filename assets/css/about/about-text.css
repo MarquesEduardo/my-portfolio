@@ -1,11 +1,12 @@
 .about__text {
-    padding-left: 90px;
+    margin-left: 4rem;
     text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
     .about__text {
-        padding: 20px 10%;
+        padding: 2rem 1.5rem;
         font-size: 15px;
+        margin: 0;
     }
 }

@@ -8,19 +8,9 @@
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     .projects {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
         width: auto;
+        margin: 2rem;
     }
 }
-
-@media screen and (min-width: 768px) and (max-width: 970px) {
-    .projects {
-        width: auto;
-    }
-  }

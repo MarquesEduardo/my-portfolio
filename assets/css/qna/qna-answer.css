@@ -1,11 +1,6 @@
-.qna__answer {
-    color: #0A86D3;
-    width: 30rem;
-}
 
 @media screen and (max-width: 768px) {
     .qna__answer {
-        width: 100%;
         font-size: 15px;
     }
 }

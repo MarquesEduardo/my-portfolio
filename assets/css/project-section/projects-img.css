@@ -4,13 +4,14 @@
     box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
     flex-shrink: 20px;
     transition: all .1s ease-in-out;
+    margin-bottom: 1rem;
 }
 
 .projects__img:hover {
     width: 30rem;
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 568px) {
     .projects__img {
         width: 100%;
     }

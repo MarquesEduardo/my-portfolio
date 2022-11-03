@@ -1,12 +1,10 @@
 .projects__text {
-    margin: 2rem;
     text-align: justify;
-    width: 350px;
+    width: 27rem;
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 568px) {
     .projects__text {
-        margin: 1rem auto;
         width: 100%;
     }
 }
