@@ -4,7 +4,6 @@
     padding-left: 30%;
     animation: fadeInAnimationTitle ease 3s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
   
 @keyframes fadeInAnimationTitle {

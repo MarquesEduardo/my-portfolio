@@ -4,7 +4,6 @@
     padding-left: 40%;
     animation: fadeInAnimationDesc ease 3s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
   
 @keyframes fadeInAnimationDesc {
