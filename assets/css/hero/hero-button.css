@@ -1,3 +1,32 @@
 .hero__button {
     margin: 2rem 0 0.5rem 0;
 }
+
+.hero__button___container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50%;
+    padding-right: 20%;
+    animation: fadeInAnimationText ease 3s;
+    animation-iteration-count: 1;
+}
+  
+@keyframes fadeInAnimationText {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@media screen and (max-width: 768px) {
+    .hero__button___container {
+        padding: 10% 0;
+    }
+    
+}

@@ -2,3 +2,23 @@
     padding: 1rem 3rem;
     margin: 3rem 0 0 0;
 }
+
+
+@media screen and (min-width: 768px) {
+    .footer__logo___container {        
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__logo {
+        width: 2rem;
+    }
+    .footer__logo___container {        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 3rem 0;
+    }
+}

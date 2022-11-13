@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .hero__logo___container {
+    .hero__logo___container {        
         display: none;
     }
 }
