@@ -1,5 +1,6 @@
 .menu__icon--mobile {
     margin: 0 1rem 0 0;
+    width: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -36,12 +37,16 @@
         display: flex;
         align-items: center;
         text-align: center;
+        justify-content: space-evenly;
         margin: 0 1rem;
     }
 
     @media screen and (max-width: 378px) {
         .menu__link--mobile {
             display: none;
+        }
+        .menu__icon--mobile {
+            margin: 0;
         }
     }
 }
