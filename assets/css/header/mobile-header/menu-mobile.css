@@ -1,0 +1,47 @@
+.menu__icon--mobile {
+    margin: 0 1rem 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    .menu--mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .menu--mobile {
+        align-items: center;
+        background-color: #0A4378; 
+        bottom: 0rem;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+    }
+
+    .menu__list--mobile {
+        display: flex;
+        font-size: 11px;
+        list-style: none;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .menu__link--mobile:active {
+        color: #326391;
+        transition: all .1s ease-in-out;
+    }
+
+    .menu__item--mobile {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 1rem;
+    }
+
+    @media screen and (max-width: 378px) {
+        .menu__link--mobile {
+            display: none;
+        }
+    }
+}

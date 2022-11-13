@@ -11,18 +11,15 @@
     <link href="./assets/css/normalize.css" rel="stylesheet">
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/base.css" rel="stylesheet">
-    <link href="./assets/css/header/header.css" rel="stylesheet">
     <link href="./assets/css/header/header-logo.css" rel="stylesheet">
-    <link href="./assets/css/header/menu/menu-item.css" rel="stylesheet">
-    <link href="./assets/css/header/menu/menu-list.css" rel="stylesheet">
-    <link href="./assets/css/header/menu/menu-link.css" rel="stylesheet">
+    <link href="./assets/css/header/menu/upper-header.css" rel="stylesheet">
+    <link href="./assets/css/header/mobile-header/menu-mobile.css" rel="stylesheet">
     <link href="./assets/css/hero/hero.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-text.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-title.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-button.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-title-name.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-title-description.css" rel="stylesheet">
-    <link href="./assets/css/hero/hero-button-container.css" rel="stylesheet">
     <link href="./assets/css/hero/hero-logos.css" rel="stylesheet">
     <link href="./assets/css/about/about.css" rel="stylesheet">
     <link href="./assets/css/about/about-img.css" rel="stylesheet">
@@ -68,13 +65,23 @@
 
 <body>
     <header class="header">
-        <a href="#"><img class="header__logo" src="./img/MARQUES.png" alt="Marques" title="Home"></a>
-        <nav class="menu">
-            <ul class="menu__list">
-                <li class="menu__item"><a class="menu__link" href="#about">About Me</a></li>
-                <li class="menu__item"><a class="menu__link" href="#projects">My Projects</a></li>
-                <li class="menu__item"><a class="menu__link" href="#qna">QnA</a></li>
-                <li class="menu__item"><a class="menu__button button" href="#footer">Contact me!</a></li>
+        <div class="upper_header">
+            <a href="#"><img class="header__logo" src="./img/MARQUES.png" alt="Marques" title="Home"></a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#about">About Me</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#projects">My Projects</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#qna">QnA</a></li>
+                    <li class="menu__item"><a class="menu__button button" href="#footer">Contact me!</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="menu--mobile">
+            <ul class="menu__list--mobile">
+                <li class="menu__item--mobile"><img class="menu__icon--mobile" src="./img/about-icon.png"><a class="menu__link--mobile" href="#about">About Me</a></li>
+                <li class="menu__item--mobile"><img class="menu__icon--mobile" src="./img/projects-icon.png"><a class="menu__link--mobile" href="#projects">My Projects</a></li>
+                <li class="menu__item--mobile"><img class="menu__icon--mobile" src="./img/qna-icon.png"><a class="menu__link--mobile" href="#qna">QnA</a></li>
             </ul>
         </nav>
         
@@ -202,6 +209,14 @@
             </div>
             <a class="footer__button button" href="mailto:eduardomarques2321@gmail.com">Say hello</a>
         </section>
+
+        <div class="footer__logo___container">
+            <a class="footer__logo___link" title="My resume" href="#" target="_blank"><img class="footer__logo" src="./img/resume.png"></a>
+            <a class="footer__logo___link" title="GitHub" href="https://github.com/eddiepm" target="_blank"><img class="footer__logo" src="./img/github.png"></a>
+            <a class="footer__logo___link" title="LinkedIn" href="https://www.linkedin.com/in/eduardopereiramarques/" target="_blank"><img class="footer__logo" src="./img/linkedin.png"></a>
+            <a class="footer__logo___link" title="Email" href="mailto:eduardomarques2321@gmail.com"><img class="footer__logo" src="./img/email.png"></a>
+        </div>
+
         <div class="copyright">
             <p class="copyright__text darker--highlight">Website designed and developed by Eduardo Marques, 2023. All rights reserved.</p>
         </div>

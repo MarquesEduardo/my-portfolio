@@ -1,0 +1,40 @@
+.upper_header {
+    background-color: rgba(5, 30, 63, 0.9);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.menu__list {
+    display: flex;
+    font-size: 13px;
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__link {
+    color: #7ECEFF;
+    margin-right: 2.25rem;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #6f9cc5;
+    transition: all .1s ease-in-out;
+}
+
+.menu__link:active {
+    color: #326391;
+    transition: all .1s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__link{
+        display: none;
+    }
+}
